@@ -12,7 +12,40 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
 }
+/* Work that I am doing */
+.header{
+  display: flex;
+  padding: 8px;
+ 
+}
+.links{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap:8px;
+  margin: 8px;
+  margin-left: -30px;
+}
+/* New Learning 
+  margin-left
+  margin-right;
+
+  You can use html and divid right and left. 
+*/
+
+.profile-image{
+  margin-left: 0;
+  margin-right: 0;
+}
+.notifications{
+  margin-left:auto;
+  margin-right: 0;
+}
+
+
+
 
 .profile-image {
   background: rebeccapurple;

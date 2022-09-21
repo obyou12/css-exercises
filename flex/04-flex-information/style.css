@@ -24,3 +24,30 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/* What I have been working on.
+  Learn about shrinking and flex center on website. It was keep moving when I shrink the size
+  of the website. It should stay at center on the website. 
+
+*/
+
+
+body{
+  text-align: center;
+}
+
+.title{
+  margin-bottom: 32px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+.infor{
+  max-width: 200px;
+}
+
+
