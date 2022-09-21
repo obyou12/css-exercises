@@ -22,6 +22,31 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.modal{
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.first-containter{
+  display: flex;
+}
+.sec-container{
+  margin-left: 15px;
+}
+.header-container{
+  display: flex;
+  flex-direction: row;
+}
+.header{
+  font-weight:bold;
+  font-size: large;
+  padding-bottom: 15px;
+}
+.text{
+  margin-bottom: 15px;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -47,8 +72,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+.close-button{
+  margin-left: auto;
+}
 
-button {
+button{
   padding: 8px 16px;
   border-radius: 8px;
 }
@@ -64,3 +92,5 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* My solucation */
