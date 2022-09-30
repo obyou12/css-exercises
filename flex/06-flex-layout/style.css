@@ -25,3 +25,132 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* SOLUTION */
+
+/*
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+      
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+
+*/
+
+/* My work. */
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  gap: 16px;
+}
+a{
+  text-decoration: none;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+/* fixing. 
+.left-links{
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  gap: 10px;
+
+} 
+.right-links{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: 40px;
+}
+*/
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+  padding: 16px;
+}
+.buttons{
+  text-align: center;
+  padding: 5px;
+}
+button{
+  padding: 10px;
+  gap: 10px;
+}
+
+.content{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+  
+
+/* I dont know how to make it content center
+  1. make context center of page. 
+  2. make footer posiction at footer 
+*/
+
+/*What I learn
+  1. justify-content: space-between. It will make space for element and space them in right and left. 
+  2. In order to space out, you have to set up as colum as body flex. 
+
+  */
+

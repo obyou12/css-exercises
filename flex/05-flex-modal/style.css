@@ -22,30 +22,6 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
-.modal{
-  padding: 15px;
-  display: flex;
-  flex-direction: row;
-}
-
-.first-containter{
-  display: flex;
-}
-.sec-container{
-  margin-left: 15px;
-}
-.header-container{
-  display: flex;
-  flex-direction: row;
-}
-.header{
-  font-weight:bold;
-  font-size: large;
-  padding-bottom: 15px;
-}
-.text{
-  margin-bottom: 15px;
-}
 
 .icon {
   color: royalblue;
@@ -94,3 +70,28 @@ button.cancel {
 }
 
 /* My solucation */
+
+.modal{
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.first-containter{
+  display: flex;
+}
+.sec-container{
+  margin-left: 15px;
+}
+.header-container{
+  display: flex;
+  flex-direction: row;
+}
+.header{
+  font-weight:bold;
+  font-size: large;
+  padding-bottom: 15px;
+}
+.text{
+  margin-bottom: 15px;
+}
