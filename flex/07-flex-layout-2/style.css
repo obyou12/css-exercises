@@ -26,3 +26,70 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My work */
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Using group of mid, you have to make flex:1 to make even. */
+.container{
+  display: flex;
+  flex: 1;
+}
+
+.card{
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+
+.sidebar{
+  max-width: 300px;
+  font-size: 24px;
+  margin: 0;
+}
+.sidebar a{
+  text-decoration: none;
+  color: white;
+}
+.sidebar ul{
+  list-style: none;
+}
+
+/* need to learn 
+  1. I dont know how to use make sidebar with const size on the left. 
+  2. Make card sizes and wrap it. 
+  3. footer needs to go down, but it doesnt.
+*/
+
+/*solution*/
+.sidebar{
+  /*flex- shrink doesnt make sidebar with even with next to main infor size.*/
+  flex-shrink: 0;
+  padding: 19px;
+}
+.card-container{
+  display: flex;
+  /*flex-wrap makes the main infors warp around by size of screen.*/
+  flex-wrap: wrap;
+}
+
+/* How I did it
+
+  
+*/
