@@ -26,3 +26,32 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My work */
+body{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.sidebar a, li{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+.sidebar{
+  flex-shrink: 0;
+  max-width: 300px;
+}
+.main-container{
+  display: flex;
+  flex: 1;
+
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  width: 300px;
+}
